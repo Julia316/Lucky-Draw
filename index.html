@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="email=no">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+		<meta name="screen-orientation" content="portrait"/>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="css/animate.css"/>
+		<script type="text/javascript" src="//www.98.cn/common/jquery-1.72.js"></script>
+		<title>新年送金股</title>
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = 100 * innerWidth / 750 + "px",
+			addEventListener("load",
+			function(){
+			    setTimeout(function() {
+			        document.documentElement.style.fontSize = 100 * innerWidth / 750 + "px",
+			        window.unit = 100 * innerWidth / 750;
+			        var n = document.createEvent("Event");
+			    },
+			    480)
+			}),
+			addEventListener("orientationchange",
+			function() {
+			    setTimeout(function(){
+			        document.documentElement.style.fontSize = 100 * innerWidth / 750 + "px"
+			    },
+			    480)
+			});
+		</script>
+        <script>
+	        $(function(){
+	            $(window).scroll(function(){
+	                if($(window).scrollTop()>300){
+	                        $('#fc').show();
+	                }else{
+	                        $('#fc').hide();
+	                } 
+	            })
+	        })
+        </script>		
+	</head>
+	<body>
+      	<div class="wrap">
+      		<div class="banner">
+      			<div class="banCont0">
+      			    <img id="Rotate" class="banLight rot" src="img/ban2.png"/>
+      			</div>
+      			<div class="banCont1">
+      				<div class="banContIn">
+      					<div id="dropL" class="redpacketL dropL"></div>
+      					<div id="dropR" class="redpacketR dropR"></div>
+      					<div class="banTopCover">
+							<div class="glass">
+								<div class="glassL shine"></div>
+								<div class="glassR shine"></div>
+							</div>      						
+      					</div>
+      				</div>
+      			</div>
+      			<div class="banCont2">
+      				<div class="btnBox"><img class="change" id="btn" src="img/btn.png"/></div>
+      			</div>
+      			<div class="banCont3">
+      				<div class="rollBox" id="rollBox">
+      					<div class="roll" id="roll">
+		      				<ul> 
+		      					<li><img src="img/hb3.jpg"/></li>
+		      					<li><img src="img/hb4.jpg"/></li>      					
+		      					<li><img src="img/hb1.jpg"/></li>
+		      					<li><img src="img/hb2.jpg"/></li>
+		      					<li><img src="img/hb3.jpg"/></li>
+		      					<li><img src="img/hb4.jpg"/></li>
+		      					<li><img src="img/hb1.jpg"/></li>
+		      					<li><img src="img/hb2.jpg"/></li>      					
+		      				</ul>
+	      				</div>
+	      				<img class="rollCover" src="img/zz.png"/> 
+      				</div>
+      			</div>
+      		</div>
+      		<img src="img/xn_1.jpg" width="100%"/>
+      		<img src="img/xn_2.jpg" width="100%"/>
+      		<img src="img/xn_3.jpg" width="100%"/>
+      		<img src="img/xn_4.jpg" width="100%"/>
+      		<img src="img/xn_5.jpg" width="100%"/>
+      		<div class="footer">
+      			<div class="footerIn">
+      				投资有风险 入市需谨慎<br/>
+                                                            从事证券投资投资或期货交易，请通过合法证券期货经营机构进行。<br/>
+					合法机构名单可到中国证监会网站（www.csrv.gov.vn）查询<br/>
+					本产品属于高风险、高收益投资品种；投资者应具有较高的风险识别能力、资金实力与风险承受能力<br/>
+					投资者应合理配置资产、不应用全部资金做投资，不应借钱来做投资
+                                   
+      			</div>
+      		</div>
+      	</div>
+      	<div class="fc" id="fc">
+      		<div class="fcIn">
+      			<div class="fcBtnBox"><img class="change" id="fcbtn" src="img/fcBtn.png"/></div>
+      		</div>
+      	</div>
+      	<div class="tc" id="tc">
+      		<div class="tcIn" id="tcIn">
+      			<div class="closeBox"><div class="close" id="close"></div></div>
+      			<div class="tcGlassWrap">
+					<div class="tcGlass">
+						<div class="tcGlassL" id="tcGlassL"></div>
+						<div class="tcGlassR" id="tcGlassR"></div>
+					</div> 
+      			</div>
+      			<div class="congra">获股神钦点 <span id="stock">股票</span><span class="red">1只</span></div>
+      			<div class="tcBtnBox">
+      				<div class="tcBtnIn">
+      					<span class="tcBtn qq-groupNo" onclick="ga('send','event', createUrlStr(),'长按复制微信号')">XXXXXXX</span>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+        <div class="qq-link" style="display:none"></div>				
+	    <input id="refererUrl" value="//win.chaochaojin.com/wap/20180104xnsjg/index.html" type="hidden" />		
+	</body>
+		<script type="text/javascript" src="//www.98.cn/common/RandwxByBid.js"></script>
+        <script type="text/javascript" src="//www.98.cn/common/CCjCountCode.js"></script>
+        <script type="text/javascript" src="js/roll.js" ></script>
+</html>

@@ -1,0 +1,420 @@
+html,
+body,
+div,
+p,
+ul,
+figure,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+button,
+textarea,
+iframe,
+table,
+th,
+td,
+img,
+a {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  border: 0 none;
+  vertical-align:bottom;
+}
+body {
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-overflow-scrolling: touch;
+  -webkit-user-drag: none;
+  color: #000;
+  word-wrap: break-word;
+  background: #f5a144;
+  margin: 0 auto;
+  padding:0;
+  border:0;
+  font-size:12px;
+  line-height: 1.42857;
+  max-width:7.5rem;
+  font-family: Microsoft YaHei, SimHei, Arial, Helvetica, sans-serif;
+}
+.wrap{
+	width:100%;
+	max-width: 7.5rem;
+	text-align:center;
+	margin:0 auto;
+	overflow: hidden;
+}
+.banner{
+	width:100%;
+	height:12rem;
+	overflow: hidden;
+	background:url(../img/ban1.jpg) 50% 50% no-repeat;
+	background-size:100% 12rem;
+	text-align:center;
+}
+.banner .banCont0{
+	position: relative;
+	width:100%;
+	height:5.97rem;
+	overflow: hidden;	
+	text-align:center;	
+}
+.banner .banLight{
+	display:inline-block;
+	width:14rem;
+	height:13.92rem;
+  margin-left:-3.25rem;
+  transform-origin:7.02rem 7rem;
+}
+.banner .banCont1{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	width:7.5rem;
+	height:8.73rem;
+	overflow: hidden;
+}
+.banner .banCont1 .banContIn{
+	position:relative;
+	width:7.5rem;
+	height:8.73rem;
+	margin:0 auto;
+	overflow: hidden;
+}
+.banner .banCont1 .banContIn .redpacketL{
+	position:absolute;
+	top:0;
+	left:0;
+	width:3.75rem;
+	height:7.4rem;
+	background:url(../img/RL1.png),url(../img/RL2.png);
+	background-size:1.78rem 5.03rem,1.78rem 5.03rem;
+	background-repeat:repeat-y,repeat-y;
+	pointer-events: none;
+	overflow: hidden;
+}
+.banner .banCont1 .banContIn .redpacketR{
+	position:absolute;
+	top:0;
+	right:0;
+	width:3.75rem;
+	height:7.4rem;
+	background:url(../img/RR1.png),url(../img/RR2.png);
+	background-size:1.78rem 5.03rem,1.78rem 5.03rem;
+	background-repeat:repeat-y,repeat-y;
+	pointer-events: none;
+	overflow: hidden;
+}
+.banner .banCont1 .banContIn .banTopCover{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	width:7.5rem;
+	height:8.73rem;
+	background:url(../img/ban4.png) 50% 50% no-repeat;
+	background-size:7.5rem 8.73rem;	
+}
+.banner .banCont1 .banContIn .banTopCover .glass{
+	width:2.18rem;
+	height:0.43rem;
+	margin:0 auto;
+	padding-top:3.37rem;
+}
+.banner .banCont1 .banContIn .banTopCover .glass .glassL{
+	float:left;
+	width:0.98rem;
+	height:0.43rem;
+	border:1px dotted transparent;
+	border-radius:0.1rem 0.12rem 0.12rem 0.26rem;
+	background:-webkit-linear-gradient(-20deg,rgba(255,255,255,0) 0,rgba(255,255,255,0) 37%,
+	rgba(255,255,255,0.4) 37%,rgba(255,255,255,0.4)60%,
+	rgba(255,255,255,0) 60%,rgba(255,255,255,0) 70%,
+	rgba(255,255,255,0.4) 70%,rgba(255,255,255,0.4) 80%,
+	rgba(255,255,255,0) 80%,rgba(255,255,255,0) 100%) no-repeat 50% 50%;
+	background-size:0.98rem 0.6rem;
+}
+.banner .banCont1 .banContIn .banTopCover .glass .glassR{
+	float:left;
+	width:0.98rem;
+	height:0.43rem;
+	margin-left:0.14rem;
+	border:1px dotted transparent;
+	border-radius:0.12rem 0.1rem 0.26rem 0.12rem;
+	background:-webkit-linear-gradient(-24deg,rgba(255,255,255,0) 0,rgba(255,255,255,0) 26%,
+	rgba(255,255,255,0.4) 26%,rgba(255,255,255,0.4)46%,
+	rgba(255,255,255,0) 46%,rgba(255,255,255,0) 64%,
+	rgba(255,255,255,0.4) 64%,rgba(255,255,255,0.4) 74%,
+	rgba(255,255,255,0) 74%,rgba(255,255,255,0) 100%) no-repeat 50% 50%;
+	background-size:0.98rem 0.6rem;
+}
+.banner .banCont2{
+	position:absolute;
+	top:8.9rem;
+	left:0;	
+	width:7.5rem;
+	height:1.22rem;
+	text-align:center;
+}
+.banner .banCont2 .btnBox{
+	width:3.5rem;
+	height:1.22rem;
+  margin:0 auto;
+}
+.banner .banCont2 .btnBox img{
+	width:3.5rem;
+	height:1.22rem;
+	cursor:pointer;
+}
+.banner .banCont3{
+	position:absolute;
+	top:10.2rem;
+	left:0;	
+	width:7.5rem;
+	height:1.8rem;
+	text-align:center;
+}
+.banner .banCont3 .rollBox{
+	position: relative;
+	width:7.5rem;
+	height:1.8rem;
+	overflow: hidden;
+}
+.banner .banCont3 .rollBox .roll{
+	position:absolute;
+	top:0;
+	left:-3.75rem;
+	width:15rem;
+	height:1.56rem;
+}
+.banner .banCont3 .rollBox .roll ul{
+	position: relative;
+	width:15rem;
+	height:1.56rem;
+}
+.banner .banCont3 .rollBox .roll ul li{
+	width:2.42rem;
+	height:1.56rem;
+	text-align:center;
+}
+.banner .banCont3 .rollBox .roll ul li img{
+	position: absolute;
+	width:2.42rem;
+	height:1.56rem;
+}
+.banner .banCont3 .rollBox .roll ul li:nth-of-type(1) img{
+	top:0.6rem;
+	right:0;
+}
+.banner .banCont3 .rollBox .roll ul li:nth-of-type(2) img{
+	top:0.65rem;
+	right:1.875rem;
+}
+.banner .banCont3 .rollBox .roll ul li:nth-of-type(3) img{
+	top:0.5rem;
+	right:3.75rem;
+}
+.banner .banCont3 .rollBox .roll ul li:nth-of-type(4) img{
+	top:0.55rem;
+	right:5.625rem;
+}
+.banner .banCont3 .rollBox .roll ul li:nth-of-type(5) img{
+	top:0.6rem;
+	right:7.5rem;
+}
+.banner .banCont3 .rollBox .roll ul li:nth-of-type(6) img{
+	top:0.65rem;
+	right:9.375rem;
+}
+.banner .banCont3 .rollBox .roll ul li:nth-of-type(7) img{
+	top:0.5rem;
+	right:11.25rem;
+}
+.banner .banCont3 .rollBox .roll ul li:nth-of-type(8) img{
+	top:0.55rem;
+	right:13.125rem;
+}
+.banner .banCont3 .rollBox .rollCover{
+	position: absolute;
+	top:0.24rem;
+	left:0;
+	right:0;
+	width:7.5rem;
+	height:1.8rem;	
+}
+.footer{
+	width:100%;
+	height:1.95rem;
+	background:url(../img/xn_6.jpg) 50% 50% no-repeat;
+	background-size:100% 1.95rem;
+	margin-bottom:1.5rem;
+}
+
+
+.footerIn{
+	width:7.2rem;
+	margin:0 auto;
+	font-size:0.16rem;
+	color:#b83505;
+	text-align:center;
+	padding-top:0.2rem;
+	line-height:0.24rem;
+}
+/*弹窗 S*/
+.tc{
+	z-index:9999;
+	display: none;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom: 0;
+	width:100%;
+	height:100%;
+  background:rgba(0,0,0,0.6);
+  text-align:center;	
+}
+.tcIn{
+	width:100%;
+	height:7.11rem;
+	margin:1.6rem auto 0;
+	background:url(../img/tc.png) 50% 50% no-repeat;
+	background-size:100% 7.11rem;
+	text-align:center;
+}
+.tcIn .closeBox{
+	width:0.62rem;
+	height:0.62rem;
+	padding-left:6.58rem;
+}
+.tcIn .closeBox .close{
+	width:0.62rem;
+	height:0.62rem;
+}
+.tcIn .tcGlassWrap{
+	width:6.28rem;
+	height:0.17rem;
+	margin:0 auto;
+	text-align:left	
+}
+.tcIn .tcGlassWrap .tcGlass{
+	width:0.83rem;
+	height:0.17rem;
+	padding-top:0.01rem;
+}
+.tcIn .tcGlassWrap .tcGlass .tcGlassL{
+	float:left;
+	width:0.37rem;
+	height:0.14rem;
+	border:1px dotted transparent;
+	border-radius:0.04rem 0.048rem 0.048rem 0.12rem;
+	background:-webkit-linear-gradient(-20deg,rgba(255,255,255,0) 0,rgba(255,255,255,0) 37%,
+	rgba(255,255,255,0.4) 37%,rgba(255,255,255,0.4)56%,
+	rgba(255,255,255,0) 56%,rgba(255,255,255,0) 66%,
+	rgba(255,255,255,0.4) 66%,rgba(255,255,255,0.4) 76%,
+	rgba(255,255,255,0) 76%,rgba(255,255,255,0) 100%) no-repeat 50% 50%;
+	background-size:0.37rem 0.28rem;
+}
+.tcIn .tcGlassWrap .tcGlass .tcGlassR{
+	float:left;
+	width:0.37rem;
+	height:0.14rem;
+	/*margin-left:0.02rem;*/
+	border:1px dotted transparent;
+	border-radius:0.05rem 0.04rem 0.12rem 0.05rem;
+	background:-webkit-linear-gradient(-24deg,rgba(255,255,255,0) 0,rgba(255,255,255,0) 26%,
+	rgba(255,255,255,0.4) 26%,rgba(255,255,255,0.4)46%,
+	rgba(255,255,255,0) 46%,rgba(255,255,255,0) 64%,
+	rgba(255,255,255,0.4) 64%,rgba(255,255,255,0.4) 74%,
+	rgba(255,255,255,0) 74%,rgba(255,255,255,0) 100%) no-repeat 50% 50%;
+	background-size:0.37rem 0.14rem;
+}
+.congra{
+	width:100%;
+	text-align:center;
+	color:#fffaf7;
+	font-size:0.51rem;
+	font-weight:bold;
+	padding-top:1.6rem;
+	letter-spacing: 1px;
+}
+.congra span{
+	color:#ff0000;
+}
+.tcBtnBox{
+	width:3.79rem;
+	height:1.04rem;
+	margin:0 auto;
+	padding-top:0.56rem;
+	background:url(../img/tcBtn.png) 0% 100% no-repeat;
+	background-size:3.79rem 1.04rem;
+	
+}
+.tcBtnBox .tcBtnIn{
+	width:2.23rem;
+	height:1.04rem;
+	padding-left:1.56rem;
+	text-align:center;
+}
+.tcBtnBox .tcBtnIn .tcBtn{
+	text-align:center;
+	font-size:0.35rem;
+	color:#8b0c0c;
+	line-height:0.92rem;
+	font-weight:800;
+}
+/*弹窗 E*/
+
+/*浮窗 S*/
+.fc{
+	display: none;
+	position: fixed;
+	left:0;
+	right:0;
+	bottom: 0;
+	width:100%;
+	height:1.7rem;
+	background:url(../img/fc.png) 50% 50% no-repeat;
+	background-size:100% 1.7rem;	
+  text-align:center;	
+}
+.fcIn{
+	width:100%;
+	height:0.88rem;
+	margin:0 auto;
+	padding-top:0.56rem;
+}
+.fcIn .fcBtnBox{
+	width:2.67rem;
+	height:0.88rem;
+	padding-left:4.74rem;
+}
+.fcIn .fcBtnBox img{
+	width:2.67rem;
+	height:0.88rem;
+}
+/*浮窗 E*/
+
+
